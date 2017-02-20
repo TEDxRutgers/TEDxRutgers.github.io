@@ -4056,3 +4056,22 @@
 			margin-top: 0;
 			padding-top: 0;
 		}
+
+
+
+#dabar{
+	background: #fc2f1f;
+	color: #fff;
+	display: block;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+#dabar a{ 
+        color: #fff; 
+        text-decoration:underline; 
+        font-weight: normal; 
+}
