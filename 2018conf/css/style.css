@@ -161,8 +161,8 @@ a.fa.fa-angle-down:hover{
 	color: #ffffff;
 	border: 2px solid #da2c0e;
 }
-/* About Section */
-#tf-about{
+/* Theme Section */
+#tf-theme{
 	padding: 80px 0;
 }
 ul.about-list{ margin: 30px 0 0 ;}
@@ -177,7 +177,7 @@ ul.about-list li span{
 }
 
 /* Team Section */
-#tf-team{
+#tf-speakers{
 	background: url(../img/rutgers.jpg);
 	background-size: cover;
 	background-position: center;
@@ -185,7 +185,7 @@ ul.about-list li span{
 	background-repeat: no-repeat;
 	color: #ffffff;
 }
-#tf-team .overlay{
+#tf-speakers .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
@@ -235,18 +235,18 @@ img.img-circle.team-img {
 	border: 4px solid transparent;
 	transition: all 0.5s;
 }
-#tf-team .item .thumbnail:hover>img.img-circle.team-img{
+#tf-speakers .item .thumbnail:hover>img.img-circle.team-img{
 	border: 4px solid #da2c0e;
 }
-#tf-team .thumbnail {
+#tf-speakers .thumbnail {
 	background: transparent;
 	border: 0;
 }
 
-#tf-team .thumbnail .caption {
+#tf-speakers .thumbnail .caption {
 	padding: 9px;
 	color: #F2F2F2;
-    style="text-shadow: 10px 10px 20px #000000;"
+    style: "text-shadow: 10px 10px 20px #000000";
 }
 
 .owl-theme .owl-controls .owl-page span {
@@ -276,7 +276,7 @@ img.img-circle.team-img {
 }
 
 /* Services Section */
-#tf-services{
+#tf-ted{
 	padding: 40px 0;
 }
 
@@ -285,14 +285,14 @@ img.img-circle.team-img {
 }
 
 
-#tf-services i.fa.fa-mobile{
+#tf-ted i.fa.fa-mobile{
 	font-size: 50px;
 	padding: 20px 25px;
 }
 
 
-/* Clients Section */
-#tf-clients{
+/* Details Section */
+#tf-details{
 	background: url(../img/rutgers.jpg);
 	background-size: cover;
 	background-position: center;
@@ -304,7 +304,7 @@ img.img-circle.team-img {
 	margin-top: 40px;
 }
 
-#tf-clients .overlay{
+#tf-details .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
@@ -316,7 +316,7 @@ img.img-circle.team-img {
 	background-attachment: fixed;
 }
 
-#tf-clients i.fa {
+#tf-details i.fa {
 	font-size: 40px;
 	border: 4px solid #FFFFFF;
 	width: 100px;
@@ -327,12 +327,12 @@ img.img-circle.team-img {
 	transition: all 0.5s;
 }
 
-#tf-clients i.fa.fa-mobile{
+#tf-details i.fa.fa-mobile{
 	font-size: 50px;
 	padding: 20px 25px;
 }
 
-#tf-clients .service:hover>i.fa{
+#tf-details .service:hover>i.fa{
 	background: #FFFFFF;
 	color: #da2c0e;
     border: 4px solid #da2c0e;
@@ -348,7 +348,7 @@ img.img-circle.team-img {
 
 /* Gallery Section 
 ==============================*/
-#tf-works{
+#tf-team{
 	padding: 80px 0;
 }
 .categories{ 
@@ -357,7 +357,7 @@ img.img-circle.team-img {
 ul.cat li{
 	display: inline-block;
 }
-#tf-works li.pull-right {
+#tf-team li.pull-right {
 	margin-top: 10px;
 }
 ol.type li{
@@ -447,7 +447,7 @@ ol.type li a.active { font-weight: 700; }
 .hover-bg:hover .hover-text{
 	opacity: 1;
 }
-#tf-works i.fa {
+#tf-team i.fa {
 	height: 30px;
 	width: 30px;
 	border: 1px solid #da2c0e;
@@ -491,6 +491,24 @@ ol.type li a.active { font-weight: 700; }
 	margin: 30px 0;
 	color: #d1d1d1;
 }
+
+/* Sponsor Section*/
+
+/* FAQ Section*/
+#tf-services{
+	padding: 40px 0;
+}
+
+.space{
+	margin-top: 40px;
+}
+
+
+#tf-services i.fa.fa-mobile{
+	font-size: 50px;
+	padding: 20px 25px;
+}
+
 /* Contact Section */
 #tf-contact{
 	padding: 40px 0;
