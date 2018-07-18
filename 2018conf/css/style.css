@@ -115,7 +115,7 @@ font-weight: 900;
 	}
 /* Home Style */
 #tf-home{
-	background: url(../img/rutgers.jpg);
+	background: url(../img/2018_temp_nowords.png);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -178,7 +178,7 @@ ul.about-list li span{
 
 /* Team Section */
 #tf-speakers{
-	background: url(../img/rutgers.jpg);
+	background: url(../img/2018_temp_nowords.png);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -293,7 +293,7 @@ img.img-circle.team-img {
 
 /* Details Section */
 #tf-details{
-	background: url(../img/rutgers.jpg);
+	background: url(../img/2018_temp_nowords.png);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
