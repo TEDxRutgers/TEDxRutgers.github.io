@@ -8,6 +8,8 @@ body, html{
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #5a5a5a;
+	max-width: 100%;
+    overflow-x: hidden;
 }
 
 h1 strong{
@@ -39,15 +41,15 @@ p.intro{
 	line-height: 24px;
 	font-family: 'Open Sans', sans-serif;
 }
-a{ color: #da2c0e;}
+a{ color: #00DDFF;}
 a:hover,
 a:focus{
 	text-decoration: none;
-	color: #da2c0e;
+	color: #00DDFF;
 }
 
 .section-title hr {
-	border-color: #da2c0e;
+	border-color: #00DDFF;
 	border-width: 4px;
 	width: 60px;
 	float: left;
@@ -97,7 +99,7 @@ font-weight: 900;
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-	color: #da2c0e !important;
+	color: #00DDFF !important;
 	background-color: transparent;
 	font-weight: 700;
 }
@@ -107,15 +109,15 @@ font-weight: 900;
 	}
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:focus {
-	background-color: #da2c0e;
-	border-color: #da2c0e;
+	background-color: #00DDFF;
+	border-color: #00DDFF;
 	}
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
 	}
 /* Home Style */
 #tf-home{
-	background: url(../img/rutgers.jpg);
+	background: url(../img/2018_temp_nowords.png);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -144,7 +146,7 @@ font-weight: 900;
 }
 
 .color{
-	color: #c9270b;
+	color: #9ee4f0;
 }
 
 a.fa.fa-angle-down {
@@ -157,12 +159,12 @@ a.fa.fa-angle-down {
 	transition: all 0.5s;
 }
 a.fa.fa-angle-down:hover{
-	background: #da2c0e;
+	background: #00DDFF;
 	color: #ffffff;
-	border: 2px solid #da2c0e;
+	border: 2px solid #00DDFF;
 }
-/* About Section */
-#tf-about{
+/* Theme Section */
+#tf-theme{
 	padding: 80px 0;
 }
 ul.about-list{ margin: 30px 0 0 ;}
@@ -177,15 +179,15 @@ ul.about-list li span{
 }
 
 /* Team Section */
-#tf-team{
-	background: url(../img/rutgers.jpg);
+#tf-speakers{
+	background: url(../img/2018_temp_nowords.png);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #ffffff;
 }
-#tf-team .overlay{
+#tf-speakers .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
@@ -205,7 +207,7 @@ ul.about-list li span{
 	font-weight: 300;
 }
 .section-title.center .line{
-	border-top: 4px solid #da2c0e;
+	border-top: 4px solid #00DDFF;
 	height: 10px;
 	width: 60px;
 	text-align: center;
@@ -214,7 +216,7 @@ ul.about-list li span{
 }
 
 .section-title.center hr {
-	border-top: 4px solid #F1472A;
+	border-top: 4px solid #67d5ee;
 	width: 40px;
 	text-align: center;
 	margin-top: 10px;
@@ -235,15 +237,15 @@ img.img-circle.team-img {
 	border: 4px solid transparent;
 	transition: all 0.5s;
 }
-#tf-team .item .thumbnail:hover>img.img-circle.team-img{
-	border: 4px solid #da2c0e;
+#tf-speakers .item .thumbnail:hover>img.img-circle.team-img{
+	border: 4px solid #00DDFF;
 }
-#tf-team .thumbnail {
+#tf-speakers .thumbnail {
 	background: transparent;
 	border: 0;
 }
 
-#tf-team .thumbnail .caption {
+#tf-speakers .thumbnail .caption {
 	padding: 9px;
 	color: #F2F2F2;
     style: "text-shadow: 10px 10px 20px #000000";
@@ -269,14 +271,14 @@ img.img-circle.team-img {
 .owl-theme .owl-controls.clickable .owl-page:hover span {
 	filter: Alpha(Opacity=100);
 	opacity: 1;
-	background: #da2c0e;
+	background: #00DDFF;
 }
 .owl-theme .owl-controls .owl-page.active span{
-	background: #da2c0e;
+	background: #00DDFF;
 }
 
 /* Services Section */
-#tf-services{
+#tf-ted{
 	padding: 40px 0;
 }
 
@@ -285,15 +287,15 @@ img.img-circle.team-img {
 }
 
 
-#tf-services i.fa.fa-mobile{
+#tf-ted i.fa.fa-mobile{
 	font-size: 50px;
 	padding: 20px 25px;
 }
 
 
-/* Clients Section */
-#tf-clients{
-	background: url(../img/rutgers.jpg);
+/* Details Section */
+#tf-details{
+	background: url(../img/2018_temp_nowords.png);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -304,7 +306,7 @@ img.img-circle.team-img {
 	margin-top: 40px;
 }
 
-#tf-clients .overlay{
+#tf-details .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
@@ -316,7 +318,7 @@ img.img-circle.team-img {
 	background-attachment: fixed;
 }
 
-#tf-clients i.fa {
+#tf-details i.fa {
 	font-size: 40px;
 	border: 4px solid #FFFFFF;
 	width: 100px;
@@ -327,15 +329,15 @@ img.img-circle.team-img {
 	transition: all 0.5s;
 }
 
-#tf-clients i.fa.fa-mobile{
+#tf-details i.fa.fa-mobile{
 	font-size: 50px;
 	padding: 20px 25px;
 }
 
-#tf-clients .service:hover>i.fa{
+#tf-details .service:hover>i.fa{
 	background: #FFFFFF;
-	color: #da2c0e;
-    border: 4px solid #da2c0e;
+	color: #00DDFF;
+    border: 4px solid #00DDFF;
 }
 
 #clients .item{
@@ -348,7 +350,7 @@ img.img-circle.team-img {
 
 /* Gallery Section 
 ==============================*/
-#tf-works{
+#tf-team{
 	padding: 80px 0;
 }
 .categories{ 
@@ -357,7 +359,7 @@ img.img-circle.team-img {
 ul.cat li{
 	display: inline-block;
 }
-#tf-works li.pull-right {
+#tf-team li.pull-right {
 	margin-top: 10px;
 }
 ol.type li{
@@ -447,14 +449,14 @@ ol.type li a.active { font-weight: 700; }
 .hover-bg:hover .hover-text{
 	opacity: 1;
 }
-#tf-works i.fa {
+#tf-team i.fa {
 	height: 30px;
 	width: 30px;
-	border: 1px solid #da2c0e;
+	border: 1px solid #00DDFF;
 	font-size: 20px;
 	padding: 5px;
 	border-radius: 50%;
-	color: #da2c0e;
+	color: #00DDFF;
 }
 /* Testimonials Section */
 #tf-testimonials{
@@ -491,6 +493,24 @@ ol.type li a.active { font-weight: 700; }
 	margin: 30px 0;
 	color: #d1d1d1;
 }
+
+/* Sponsor Section*/
+
+/* FAQ Section*/
+#tf-services{
+	padding: 40px 0;
+}
+
+.space{
+	margin-top: 40px;
+}
+
+
+#tf-services i.fa.fa-mobile{
+	font-size: 50px;
+	padding: 20px 25px;
+}
+
 /* Contact Section */
 #tf-contact{
 	padding: 40px 0;
@@ -529,7 +549,7 @@ label {
 
 button.btn.tf-btn.btn-default {
 	float: center;
-	background: #da2c0e;
+	background: #00DDFF;
 	border: 0;
 	border-radius: 0;
 	padding: 10px 40px;
@@ -579,8 +599,8 @@ nav#footer p{
 	transition: all 0.5s;
 }
 #footer i.fa:hover{
-	background: #da2c0e;
-	border-color: #da2c0e;
+	background: #00DDFF;
+	border-color: #00DDFF;
 	color: #ffffff;
 }
     
@@ -641,11 +661,11 @@ nav#footer p{
 .button3 {
     background-color: white; 
     color: black; 
-    border: 2px solid #f44336;
+    border: 2px solid #9ee4f0;
 }
 
 .button3:hover {
-    background-color: #f44336;
+    background-color: #9ee4f0;
     color: white;
 }
 
