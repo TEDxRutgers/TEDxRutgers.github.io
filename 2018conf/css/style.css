@@ -8,6 +8,8 @@ body, html{
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #5a5a5a;
+	max-width: 100%;
+    overflow-x: hidden;
 }
 
 h1 strong{
