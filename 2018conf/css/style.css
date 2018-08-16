@@ -155,7 +155,7 @@ a.fa.fa-angle-down {
 	border: 2px solid #b4b4b4;
 	border-radius: 50%;
 	font-size: 24px;
-	margin-top: 200px;
+	margin-top: 150px;
 	transition: all 0.5s;
 }
 a.fa.fa-angle-down:hover{
@@ -496,6 +496,14 @@ ol.type li a.active { font-weight: 700; }
 
 /* Sponsor Section*/
 
+#tf-sponsors {
+	background: url(../img/2018_temp_nowords.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
 /* FAQ Section*/
 #tf-services{
 	padding: 40px 0;
