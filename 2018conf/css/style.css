@@ -496,6 +496,14 @@ ol.type li a.active { font-weight: 700; }
 
 /* Sponsor Section*/
 
+#tf-sponsors {
+	background: url(../img/2018_temp_nowords.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
 /* FAQ Section*/
 #tf-services{
 	padding: 40px 0;
