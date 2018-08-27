@@ -544,7 +544,7 @@ img.img-circle.silver-img {
 	transition: all 0.5s;
 }
 #tf-sponsors .item .thumbnail:hover>img.img-circle.silver-img{
-	border: 4px solid #C0C0C0;
+	border: 4px solid 	#808080;
 }
 
 img.img-circle.bronze-img {
