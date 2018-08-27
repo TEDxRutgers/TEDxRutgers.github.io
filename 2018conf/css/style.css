@@ -401,6 +401,11 @@ ol.type li a.active { font-weight: 700; }
     -moz-transition-property: -moz-transform, opacity;
     transition-property: transform, opacity;
 }
+
+.pres {
+	border-right: 12.5%;
+	border-left:12.5%;
+}
 .portfolio-item{
 	margin-bottom: 30px;
 }
