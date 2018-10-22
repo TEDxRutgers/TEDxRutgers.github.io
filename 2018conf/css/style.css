@@ -237,6 +237,15 @@ img.img-circle.team-img {
 	border: 4px solid transparent;
 	transition: all 0.5s;
 }
+
+.inline-block-center {
+  text-align: center;
+}
+.inline-block-center div {
+  display: inline-block;
+  text-align: left;
+}
+
 #tf-speakers .item .thumbnail:hover>img.img-circle.team-img{
 	border: 4px solid #00DDFF;
 }
