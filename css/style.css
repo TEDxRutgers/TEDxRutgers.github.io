@@ -730,8 +730,13 @@ nav#footer p{
   animation-delay: 2.1s;
 }
 
+@media screen and (max-width: 849px) {
 
+	.div-no-mobile {
+		display:none
+	}
 
+}
 .button3 {
     background-color: white;
     color: black;
