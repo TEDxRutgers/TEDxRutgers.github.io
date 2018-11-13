@@ -247,7 +247,7 @@ img.img-circle.team-img {
 #tf-team .thumbnail .caption {
 	padding: 9px;
 	color: #F2F2F2;
-    style="text-shadow: 10px 10px 20px #000000;"
+    style=text-shadow: 10px 10px 20px #000000;
 }
 
 .owl-theme .owl-controls .owl-page span {
@@ -637,6 +637,13 @@ nav#footer p{
   animation-delay: 2.1s;
 }
 
+@media screen and (max-width: 849px) {
+
+	.div-no-mobile {
+		display:none
+	}
+
+}
 
 
 .button3 {
