@@ -124,6 +124,36 @@ font-weight: 900;
 	background-repeat: no-repeat;
 	color: #cfcfcf;
 }
+#tf-home .parallax{
+		perspective: 100px;
+		height: 100vh;
+		overflow-x: hidden;
+		overflow-y: auto;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		right: 0;
+		bottom: 0;
+		margin-left: -1500px;
+}
+#tf-home .parallax__layer{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+#tf-home .parallax__cover{
+	background: #2D112B;
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	height: 2000px;
+	z-index: 2;
+  }
 
 #tf-home .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
@@ -146,7 +176,7 @@ font-weight: 900;
 }
 
 .color{
-	color: #9ee4f0;
+	color: #00aabd;
 }
 
 a.fa.fa-angle-down {
@@ -216,7 +246,7 @@ ul.about-list li span{
 }
 
 .section-title.center hr {
-	border-top: 4px solid #67d5ee;
+	border-top: 4px solid #00aabd;
 	width: 40px;
 	text-align: center;
 	margin-top: 10px;
@@ -623,7 +653,7 @@ label {
 
 button.btn.tf-btn.btn-default {
 	float: center;
-	background: #00DDFF;
+	background: #00aabd;
 	border: 0;
 	border-radius: 0;
 	padding: 10px 40px;
@@ -740,11 +770,11 @@ nav#footer p{
 .button3 {
     background-color: white;
     color: black;
-    border: 2px solid #9ee4f0;
+    border: 2px solid #00aabd;
 }
 
 .button3:hover {
-    background-color: #9ee4f0;
+    background-color: #00ddff;
     color: white;
 }
 
