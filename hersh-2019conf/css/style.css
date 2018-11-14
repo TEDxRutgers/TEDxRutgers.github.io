@@ -247,7 +247,7 @@ img.img-circle.team-img {
 #tf-team .thumbnail .caption {
 	padding: 9px;
 	color: #F2F2F2;
-    style=text-shadow: 10px 10px 20px #000000;
+    text-shadow: 10px 10px 20px #000000;
 }
 
 .owl-theme .owl-controls .owl-page span {
