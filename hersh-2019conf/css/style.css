@@ -144,7 +144,7 @@ font-weight: 900;
 }
 
 .color{
-	color: #c9270b;
+	color: #da2c0e;
     margin-top: 10vh;
 }
 
@@ -215,7 +215,7 @@ ul.about-list li span{
 }
 
 .section-title.center hr {
-	border-top: 4px solid #F1472A;
+	border-top: 4px solid #da2c0e;
 	width: 40px;
 	text-align: center;
 	margin-top: 10px;
