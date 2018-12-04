@@ -637,13 +637,6 @@ nav#footer p{
   animation-delay: 2.1s;
 }
 
-@media screen and (max-width: 849px) {
-
-	.div-no-mobile {
-		display:none
-	}
-
-}
 
 
 .button3 {
@@ -670,9 +663,4 @@ nav#footer p{
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
-}
-
-.fixhershandkevin {
-     margin: 0 auto;
-     width: 100px; 
 }
