@@ -2515,6 +2515,11 @@
 			padding: 0;
 		}
 
+/* Paragraph Aligning */
+.tab {
+	margin-left: 100px; 
+}
+
 /* Icon */
 
 	.icon {
@@ -4070,8 +4075,8 @@
 	text-align: center;
 }
 
-#dabar a{ 
-        color: #fff; 
-        text-decoration:underline; 
-        font-weight: normal; 
+#dabar a{
+        color: #fff;
+        text-decoration:underline;
+        font-weight: normal;
 }
