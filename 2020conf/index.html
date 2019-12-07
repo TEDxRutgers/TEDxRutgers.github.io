@@ -34,6 +34,54 @@
 
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
+    <style>
+    .collapsible {
+      background-color: #700;
+      color: white;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+    }
+
+    .active2, .collapsible:hover {
+      background-color: #da2c0e;
+    }
+
+    .collapsible:after {
+      content: '\002B';
+      color: white;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+    }
+
+    .active2:after {
+      content: "\2212";
+    }
+
+    .content2 {
+      padding: 0 18px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+    }
+
+    .col-centered{
+        float: none;
+        margin: 0 auto;
+    }
+
+    .img-center {
+      display:block;
+      margin:0 auto;
+    }
+
+  </style>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -66,9 +114,9 @@
             <li><a href="#tf-works" class="page-scroll">Team</a></li>
             <li><a href="#tf-team" class="page-scroll">Speakers</a></li>
             <li><a href="#tf-ted" class="page-scroll">TED</a></li>
-              <li><a href="#tf-faq" class="page-scroll">FAQ</a></li>
+            <li><a href="#tf-faq" class="page-scroll">FAQ</a></li>
             <li><a href="#tf-contact" class="page-scroll">Contact</a></li>
-            <li><a href="http://www.tedxrutgers.com/" class="page-scroll" target="_blank">Main Site</a></li>
+            <!--<li><a href="http://www.tedxrutgers.com/" class="page-scroll" target="_blank">Main Site</a></li>-->
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -101,19 +149,21 @@
             <div class="row">
                 <div class="col-md-3"> </div>
                 <div class="col-md-6">
-                    <img src="img/pale-blue-dot-text.png" class="img-responsive" width="500">
-                    <div class="space"></div>
+                    <img src="img/darkroom_text.png" class="img-responsive" width="500">
+
                 </div>
                 <div class="col-md-3"> </div>
             </div>
 
             <div class="row">
                 <div class="col-md-2"> </div>
-                <div class="col-md-3">
-                    <img src="img/pale-blue-dot.jpg" class="img-responsive" width="500">
+                <div class="col-md-4">
+                    <br> <br> <br>
+                    <img src="img/first_photo.jpg" class="img-responsive" width="500">
                 </div>
-                <div class="col-md-5">
-                   <p class="intro" style="text-align:justify">In 1990, the Voyager 1 spacecraft took a picture of Earth from 6 billion kilometers away. Our entire world appeared as a small, barely visible blue pixel. This photo alludes to how all of our experiences - from triumphs to failures, agreements to conflicts, connections to divisions - are virtually nothing in the realm of the universe. Renowned astronomer Carl Sagan coined the term “Pale Blue Dot” in response to this image - “Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives.“</p>
+                <div class="col-md-4">
+                   <br>
+                   <p class="intro" style="text-align:justify">In 1826, Joseph Nicéphore Niépce captured what is believed to be the world’s first photograph. Fast forward almost 200 years, pictures have become an absolutely essential part in remembering some of the most important moments in our lives. From extravagant vacations and concerts, to the really awkward haircuts from childhood - pictures offer just one way of reflecting and reliving past moments in life. Prior to the rise of digital photography, printed photographs had to be developed carefully and individually in dimly lit rooms, known as darkrooms.“</p>
                 </div>
                 <div class="col-md-2"> </div>
             </div>
@@ -121,8 +171,20 @@
             <div class="row">
                 <div class="col-md-2"> </div>
                 <div class="col-md-8">
-                    <p class="intro" style="text-align:justify">The sight  puts into perspective how each of our stories is just one of billions unfolding each day all around the planet. With every passing minute, new goals are reached, records are broken, and ideas are sprouted. Each of us journey through this world, forging our own unique path, slowly  understanding the universe around us.</p>
-                    <p class="intro" style="text-align:justify">This year, we will zoom out and explore the bigger picture, because each individual story is surrounded by countless others waiting to be heard. What can we learn from this large dose of perspective? No matter how alone we might feel in our endeavours, there exists a world of incredibly different experiences out there so vast that we cannot possibly fathom it all.</p>
+                    <p class="intro" style="text-align:justify">It is in these darkrooms where our images - our memories - are carefully refined, developed, and brought to life.    As the photographer first creates negatives from the film and then transforms them into the photographs, they take in all of the details of the moment over and over. Every detail in the scene, each ray of light, that was caught by the camera is seen repeatedly by the photographer.  As the images first transform from a strip of film into developed photographs, every detail of the moment - each element of the scene and every ray of light that was captured by the camera - is revealed to the photographer. The photographer’s work in the darkroom is critical to how the photograph will develop, cultivate, and ultimately represent that captured moment for us to view and reflect on for the rest of our lives. </p>
+                </div>
+                <div class="col-md-2"> </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2"> </div>
+                <div class="col-md-4">
+                  <br>
+                <p class="intro" style="text-align:justify">The very process of how our past moments are encapsulated into our lives, will permanently define those moments. This year, TEDxRutgers is focused on the process behind how moments in our lives are given meaning. We have challenged our speakers to articulate their experiences in the darkroom of life, and consider how they developed past moments to define the path they chose. </p>
+                </div>
+                <div class="col-md-4">
+                    <br> <br>
+                    <img src="img/polaroid.jpg" class="img-responsive" width="500">
                 </div>
                 <div class="col-md-2"> </div>
             </div>
@@ -187,294 +249,204 @@
                 </div>
             </div>
 
+            <!--<img src="img/team/team_pic_edited.png" class="img-responsive" width="" style="margin: 0 auto;"/>-->
+
+
+
             <div class="categories">
                 <div class="clearfix"></div>
             </div>
 
-            <!--
-           ==================
-            ORGANIZING BOARD
-           ==================-->
-            <div id="lightbox" class="row">
 
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="http://hershpatel.com/" target="_blank">
-                                <div class="hover-text">
-                                    <h4>Hersh Patel</h4>
-                                    <small>Co-President</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/team/hersh.jpg" class="img-responsive" alt="...">
-                             </a>
-                         </div>
-                     </div>
-                </div>
+            <div id="lightbox" class="row" style="margin-left:225px;">
 
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a>
-                                <div class="hover-text">
-                                    <h4>Kevin Zhao</h4>
-                                    <small>Co-President</small>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <img src="img/team/kevin.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-sm-2 col-md-2 col-lg-2">
+                <div class="col-sm-3 col-md-3 col-lg-3">
                     <div class="portfolio-item">
                         <div class="hover-bg">
                             <a>
                                 <div class="hover-text">
                                     <h4>Phuru Shekar</h4>
-                                    <small>Vice President</small>
-                                    <br>
-                                    <small>Tech Director</small>
+                                    <small>Co-President</small>
                                     <div class="clearfix"></div>
                                 </div>
-                                <img src="img/team/phuru.jpg" class="img-responsive" alt="...">
+                                <img src="img/eboard/phuru.jpg" class="img-responsive" alt="...">
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm-2 col-md-2 col-lg-2">
+                <div class="col-sm-3 col-md-3 col-lg-3">
                     <div class="portfolio-item">
                         <div class="hover-bg">
                             <a>
                                 <div class="hover-text">
-                                    <h4>Jessica Zhu</h4>
-                                    <small>Design Director</small>
+                                    <h4>Simran Bhatia</h4>
+                                    <small>Co-President</small>
                                     <div class="clearfix"></div>
                                 </div>
-                                <img src="img/team/jessica.jpg" class="img-responsive" alt="...">
+                                <img src="img/eboard/simran.jpg" class="img-responsive" alt="...">
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a>
-                                <div class="hover-text">
-                                    <h4>Yiran Lin</h4>
-                                    <small>Marketing Director</small>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <img src="img/team/yiran.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a>
-                                <div class="hover-text">
-                                    <h4>Aneesh Deshpande</h4>
-                                    <small>Logistics Director</small>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <img src="img/team/aneesh.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a>
-                                <div class="hover-text">
-                                    <h4>Thomas Boniello</h4>
-                                    <small>Photographer</small>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <img src="img/team/thomas.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a>
-                              <div class="hover-text">
-                                  <h4>Simran Bhatia</h4>
-                                  <small>Treasurer</small>
-                                  <div class="clearfix"></div>
-                              </div>
-                              <img src="img/team/simran.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-2 col-md-2 col-lg-2">
+                <div class="col-sm-3 col-md-3 col-lg-3">
                     <div class="portfolio-item">
                         <div class="hover-bg">
                             <a>
                                 <div class="hover-text">
                                     <h4>Aarohi Apte</h4>
-                                    <small>Finance Committee</small>
+                                    <small>Vice President</small>
                                     <br>
-                                    <small>Marketing Committee</small>
+                                    <small>Marketing Director</small>
                                     <div class="clearfix"></div>
                                 </div>
-                                <img src="img/team/aarohi.jpg" class="img-responsive" alt="...">
+                                <img src="img/eboard/aarohi.jpg" class="img-responsive" alt="...">
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a>
-                                <div class="hover-text">
-                                    <h4>Saira Imran</h4>
-                                    <small>Marketing Committee</small>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <img src="img/team/saira.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
+           </div>
+
+           <div id="lightbox" class="row">
+              <div class="col-sm-2 col-md-2 col-lg-2"> </div>
+               <div class="col-sm-2 col-md-2 col-lg-2">
+                   <div class="portfolio-item">
+                       <div class="hover-bg">
+                           <a>
+                               <div class="hover-text">
+                                   <h4>Jessica Zhu</h4>
+                                   <small>Co-Design Director</small>
+                                   <div class="clearfix"></div>
+                               </div>
+                               <img src="img/eboard/jess.jpg" class="img-responsive" alt="...">
+                           </a>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-sm-2 col-md-2 col-lg-2">
+                   <div class="portfolio-item">
+                       <div class="hover-bg">
+                           <a>
+                               <div class="hover-text">
+                                   <h4>Yash Kona</h4>
+                                   <small>Co-Design Director</small>
+                                   <div class="clearfix"></div>
+                               </div>
+                               <img src="img/eboard/yash.jpg" class="img-responsive" alt="...">
+                           </a>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-sm-2 col-md-2 col-lg-2">
+                   <div class="portfolio-item">
+                       <div class="hover-bg">
+                           <a>
+                               <div class="hover-text">
+                                   <h4>Shivani Kurapati</h4>
+                                   <small>Logistics Director</small>
+                                   <div class="clearfix"></div>
+                               </div>
+                               <img src="img/eboard/shivani.jpg" class="img-responsive" alt="...">
+                           </a>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-sm-2 col-md-2 col-lg-2">
+                   <div class="portfolio-item">
+                       <div class="hover-bg">
+                           <a>
+                               <div class="hover-text">
+                                   <h4>Anuj Patel</h4>
+                                   <small>Tech Director</small>
+                                   <div class="clearfix"></div>
+                               </div>
+                               <img src="img/eboard/anuj.jpg" class="img-responsive" alt="...">
+                           </a>
+                       </div>
+                   </div>
+               </div>
+
+           </div>
 
 
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a>
-                                <div class="hover-text">
-                                    <h4>Rishabh Kapoor</h4>
-                                    <small>Marketing Committee</small>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <img src="img/team/rishabh.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
+           <div id="lightbox" class="row">
+               <div class="col-sm-2 col-md-2 col-lg-2"> </div>
+               <div class="col-sm-2 col-md-2 col-lg-2">
+                   <div class="portfolio-item">
+                       <div class="hover-bg">
+                           <a>
+                               <div class="hover-text">
+                                   <h4>Matthew Signorelli</h4>
+                                   <small>Co-Lead Speaker Curator</small>
+                                   <div class="clearfix"></div>
+                               </div>
+                               <img src="img/eboard/matt.jpg" class="img-responsive" alt="...">
+                           </a>
+                       </div>
+                   </div>
+               </div>
 
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="https://www.linkedin.com/in/matthew-signorelli-757031163/" target="_blank">
-                                <div class="hover-text">
-                                    <h4>Matt Signorelli</h4>
-                                    <small>Logistics Committee</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/team/matt.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a>
-                                <div class="hover-text">
-                                    <h4>Shivani Kurapati</h4>
-                                    <small>Logistics Committee</small>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <img src="img/team/shivani.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
+               <div class="col-sm-2 col-md-2 col-lg-2">
+                   <div class="portfolio-item">
+                       <div class="hover-bg">
+                           <a>
+                               <div class="hover-text">
+                                   <h4>Kevin Zhao</h4>
+                                   <small>Co-Lead Speaker Curator</small>
+                                   <div class="clearfix"></div>
+                               </div>
+                               <img src="img/eboard/kevin.jpg" class="img-responsive" alt="...">
+                           </a>
+                       </div>
+                   </div>
+               </div>
 
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a>
-                                <div class="hover-text">
-                                    <h4>Yugant Joshi</h4>
-                                    <small>Tech Committee</small>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <img src="img/team/yugant.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
+               <div class="col-sm-2 col-md-2 col-lg-2">
+                   <div class="portfolio-item">
+                       <div class="hover-bg">
+                           <a>
+                               <div class="hover-text">
+                                   <h4>Thomas Boniello</h4>
+                                   <small>Speaker Curator</small>
+                                   <br>
+                                   <small>Photographer</small>
+                                   <div class="clearfix"></div>
+                               </div>
+                               <img src="img/eboard/tom.jpg" class="img-responsive" alt="...">
+                           </a>
+                       </div>
+                   </div>
+               </div>
 
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a>
-                                <div class="hover-text">
-                                    <h4>Anuj Patel</h4>
-                                    <small>Tech Committee</small>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <img src="img/team/anuj.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
+               <div class="col-sm-2 col-md-2 col-lg-2">
+                   <div class="portfolio-item">
+                       <div class="hover-bg">
+                           <a>
+                               <div class="hover-text">
+                                   <h4>Karen Du</h4>
+                                   <small>Treasurer</small>
+                                   <div class="clearfix"></div>
+                               </div>
+                               <img src="img/eboard/karen.jpg" class="img-responsive" alt="...">
+                           </a>
+                       </div>
+                   </div>
+               </div>
 
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a>
-                                <div class="hover-text">
-                                    <h4>Emily Duong</h4>
-                                    <small>Design Committee</small>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <img src="img/team/emily.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
+           </div>
 
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="https://www.instagram.com/samanthanitting/" target="_blank">
-                              <div class="hover-text">
-                                <h4>Sam Nitting</h4>
-                                <small>Marketing Committee</small>
-                                <div class="clearfix"></div>
-                                <i class="fa fa-plus"></i>
-                            </div>
-                            <img src="img/team/sam.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a>
-                              <div class="hover-text">
-                                <h4>Yash Kona</h4>
-                                <small>Design Committee</small>
-                                <div class="clearfix"></div>
-                            </div>
-                            <img src="img/team/yash.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+            <!--
+           ==================
+            ORGANIZING BOARD
+           ==================-->
+            
         </div>
     </div>
 
@@ -494,47 +466,63 @@
 
                     <div class="item">
                         <div class="thumbnail col-sm-6 col-md-6 col-lg-6">
-                            <img src="img/speakers/Ronald-Quincy.jpg" alt="..." class="img-circle team-img">
+                            <img src="img/speakers/andrew_tjang.jpg" alt="..." class="img-circle team-img">
                             <div class="caption">
-                                <h3>Ronald Quincy</h3>
-                                <p style="font-weight:700;">Professor of Practice</p>
-                                <p style="text-align:justify">Dr. Quincy is a Professor at the School of Planning &amp; Public Policy, Co-Academic Director, Collaborative Center for Community-Based Research &amp; Service, Faculty Director, Honors South Africa Study Abroad Program and Academic Director, Mandela Washington Fellowship Civic Leadership Institute (an initiative of former President Obama). His former positions include: Cabinet member for two Michigan governors, Associate Vice President of Harvard University, Executive Director of the Martin Luther King, Jr. Center for Nonviolent Social Change, Executive Director of the Congressional Black Caucus Foundation. President Reagan also appointed Dr. Quincy to a White House Fellowship, where he served as a Foreign Policy Advisor in the State Department and Special Assistant to the Secretary of HUD. His professional development &amp; personal mentors included Mrs. Coretta Scott King and the Honorable Nelson Mandela.</p>
+                                <h3>Andrew Tjang</h3>
+                                <p style="font-weight:700;">Professor of Computer Science</p>
+                                <button class="collapsible">Learn More</button>
+                                <div class="content2">
+                                <p style="text-align:justify">Dr. Tjang is the co-founder and Chief Technical Officer for Cognition IP, the first venture backed, tech enabled patent law firm. He oversees the development and implementation of software and AI technology products that enable attorneys to save time and produce higher quality work. As a patent engineer at Cognition IP, he has also had the opportunity to study what is at the forefront of the application of AI in the Silicon Valley startup scene. Prior to founding Cognition IP, Dr. Tjang was Assistant Teaching Professor in the Computer Science department at Rutgers University, New Brunswick.</p>
+                              </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="item">
                         <div class="thumbnail col-sm-6 col-md-6 col-lg-6">
-                            <img src="img/speakers/Yana-Bromberg.jpg" alt="..." class="img-circle team-img">
+                            <img src="img/speakers/nadia_masri.png" alt="..." class="img-circle team-img">
                             <div class="caption">
-                                <h3>Yana Bromberg</h3>
-                                <p style="font-weight:700;">Professor of Bioinformatics</p>
-                                <p style="text-align:justify">Dr. Yana Bromberg’s research focuses on deciphering the DNA “blueprints” of life’s molecular machinery. She develops novel bioinformatics techniques to find out where this machinery comes from and why/how it runs. The answers to these basic questions are important for improving our health/quality of life, preserving our environment, and, well... did we really start as green slime?! Dr. Bromberg received her degrees from SUNY Stony Brook and Columbia University. Her work has been recognized by private and federal agencies, including NASA and NIH. She received an NSF CAREER award and is also a Fellow of the Munich Institute for Advanced Study. Her findings consistently indicate that our world functions via dependencies and interactions at all scales.</p>
+                                <h3>Nadia Masri</h3>
+                                <p style="font-weight:700;">CEO & Founder of Perksy</p>
+                                <button class="collapsible">Learn More</button>
+                                <div class="content2">
+                                <p style="text-align:justify">Nadia Genevieve Masri is a 4-time founder, Forbes 30 Under 30 headliner, and the CEO & Founder of Perksy – a next-gen market intelligence platform that conducts real-time research with Millennial & Gen-Z audiences through mobile. With a fresh take on understanding the habits, behaviors, and preferences of Gen Y & Z consumers, Nadia and her team are redefining market research for the mobile generation by making feedback the favorite form of engagement. Prior to Perksy, Nadia founded 3 other companies before studying psychology and marketing through Harvard’s continuing education program. Nadia is passionate about product innovation, design, and neuroscience.</p>
+                              </div>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
 
                 <div id="team" class="row">
 
-                    <div class="item">
-                        <div class="thumbnail col-sm-6 col-md-6 col-lg-6">
-                            <img src="img/speakers/Palak-Patel.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Palak Patel</h3>
-                                <p style="font-weight:700;">Chef, Advocate, TV personality, Immigrant</p>
-                                <p style="text-align:justify">Palak is a chef, an immigrant who was born and raised in India where she lived with her 15 person extended big fat Indian family under one roof. All meals were a production at her house, it’s also where she learned the names of spices just like you'd learn the alphabet. She played helper to her mom, aunts and grandmas who taught her how to cook. This was her earliest lesson on community and a strong culture around food. She believes if we are going to change behavior around eating healthy, we have to start looking at adopting these practices in our daily lives. We should commit to cooking and eating together. </p>
+                  <div class="item">
+                      <div class="thumbnail col-sm-6 col-md-6 col-lg-6">
+                          <img src="img/speakers/dumbfoundead.png" alt="..." class="img-circle team-img">
+                          <div class="caption">
+                              <h3>Jonathan Park (aka Dumbfoundead)</h3>
+                              <p style="font-weight:700;">Professional Rapper</p>
+                              <button class="collapsible">Learn More</button>
+                              <div class="content2">
+                              <p style="text-align:justify">From the battle grounds to the silver screen, Jon Park (professionally known as Dumbfoundead) has built up an unbelievably impressive repertoire. Born in Buenos Aires to Korean immigrants, smuggled into Mexico, raised in Koreatown Los Angeles where he later freestyled at open-mics in Leimert Park at Project Blowed, Dumbfoundead is now a force to be reckoned with not only in the Los Angeles hip-hop scene but also internationally as a viral hip-hop ambassador. During the 2015 King of the Dot’s Blackout 5 world renown rapper Drake praised Dumbfoundead as the highlight of the rap battle. Later, Dumbfoundead used to his platform to champion for Asian rappers Keith Ape and Rich Brian to come to the US where they formed the crew 88 Rising.  Moreover, Dumbfoundead was also honored for his contributions for Asian artists with the KoreanAmericanStory.org Trail Blazer award alongside actress Sandra Oh and humanitarian Thomas Park Clement. Dumbfoundead has also branched out as an actor with supporting roles in Joseph Kahn’s Detention(2011), Bodied (2017) and Season 3 of Starz #1 series Power (2016) and Awkwafina's 'Nora From Queens' (2019) and his currently developing his own television show.
+                              </p>
                             </div>
-                        </div>
-                    </div>
+                          </div>
+                      </div>
+                  </div>
 
                     <div class="item">
                         <div class="thumbnail col-sm-6 col-md-6 col-lg-6">
-                            <img src="img/speakers/Mason-Ameri.jpg" alt="..." class="img-circle team-img">
+                            <img src="img/speakers/steve_irby.png" alt="..." class="img-circle team-img">
                             <div class="caption">
-                                <h3>Mason Ameri</h3>
-                                <p style="font-weight:700;">Professor of Management Studies</p>
-                                <p style="text-align:justify">Dr. Mason Ameri is an Assistant Professor of Professional Practice at Rutgers Business School who specializes in managing diversity, specifically the equal employment opportunity of people with disabilities. He is recognized for applied research about disability as it relates to employment, the sharing economy and public accommodations, unionization, and civic engagement. Dr. Ameri’s work has been featured in more than 120 media outlets, including The New York Times, the Los Angeles Times, and PBS. At Rutgers Business School, he teaches in the areas of management skills, organizational behavior, human resource management, and negotiations.</p>
+                                <h3>Steve Irby</h3>
+                                <p style="font-weight:700;">Professional Photographer</p>
+                                <button class="collapsible">Learn More</button>
+                                <div class="content2">
+                                <p style="text-align:justify">Steven John Irby (a.k.a. Steve Sweatpants), co-owner, co-founder & director of Street Dreamsmagazine. With dual headquarters in NYC and Vancouver, Irby and company’s transcontinental publication showcases up-and-coming photographers and crowdsources photos via Instagram to create a physical and digital quarterly chock full of curated art for a skilled craft. His prowess for photography is immediately apparent. Born and based in Brooklyn, the majority of Irby’s work is derived from the endless source of inspiration found on his home turf with some intriguing travelogues to round out his portfolio. Shooting primarily in B/W, Irby, now an ambassador for Sony cameras, shoots poignant portraits and gritty cityscapes from unique perspectives. A street photographer with a masterful eye, creative composition and skillful lighting, his photos possess a crisp and stark contrast that makes the subjects seem like they’re about to pop out of the page. Each shot is in-and-of the moment, but captured in a way that later resonates with a truly timeless aesthetic.
+                                </p>
+                              </div>
                             </div>
                         </div>
                     </div>
@@ -547,11 +535,14 @@
 
                     <div class="item">
                         <div class="thumbnail col-sm-6 col-md-6 col-lg-6">
-                            <img src="img/speakers/Nandini-Ramani.png" alt="..." class="img-circle team-img">
+                            <img src="img/speakers/filler.png" alt="..." class="img-circle team-img">
                             <div class="caption">
-                                <h3>Nandini Ramani</h3>
-                                <p style="font-weight:700;">Chief Operating Officer - Outcome Health</p>
-                                <p style="text-align:justify">Nandini Ramani has been the Chief Operating Officer of Outcome Health since December 2017 and before that she served as its Chief Engineering Officer. Prior to joining Outcome Health, Ramani was the Vice President of Engineering at Twitter, the most senior female role at the company. She also previously led the $320 million Java business unit for Oracle.</p>
+                                <h3>Christopher Young</h3>
+                                <p style="font-weight:700;">Professor of Business Ethics</p>
+                                <button class="collapsible">Learn More</button>
+                                <div class="content2">
+                                <p style="text-align:justify">Christopher Young is a professor of business ethics in the Department of Management and Global Business and a research fellow at Rutgers' Institute for Ethical Leadership. His research focus is in the area of forensic economics, legal and business ethics.</p>
+                              </div>
                             </div>
                         </div>
                     </div>
@@ -572,23 +563,29 @@
 
                 <div class="item">
                     <div class="thumbnail col-sm-6 col-md-6 col-lg-6">
-                        <img src="img/speakers/Brooke-Getter.jpg" alt="..." class="img-circle team-img">
+                        <img src="img/speakers/carl.png" alt="..." class="img-circle team-img">
                         <div class="caption">
-                            <h3 style="font-size:20px;">Brooke Getter</h3>
+                            <h3 style="font-size:20px;">Carl Heer</h3>
                             <p style="font-weight:700;">Student at Rutgers University</p>
-                            <p style="text-align:justify">Brooke was destined to be bound by the confines of the extremely insular ultra Orthodox Jewish community. When one of her parents left this technologically deprived society, allowing her to become a computer engineering major, she contradicted her upbringing and left the box she was put in at birth. Now, as a college student trying to explore freedom of choice, she struggles with the notion that there should be a “right box” for her to fit in, when in reality she is someone who moves between the boxes.</p>
+                            <button class="collapsible">Learn More</button>
+                            <div class="content2">
+                              <p style="text-align:justify">Carl Heer is an adventurous extrovert whose dream is to one day travel the world as a motivational speaker. His favorite accomplishments have been through programs developing communicationand leadership skills in youth and also achieving the rank of Eagle Scout. At Rutgers, he is involved in Greek Life and the Rutgers Outdoors Club. During his free time, he likes to ski, surf, and travel.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="thumbnail col-sm-6 col-md-6 col-lg-6">
-                        <img src="img/speakers/Alexander-Louie.png" alt="..." class="img-circle team-img">
+                        <img src="img/speakers/sarah.png" alt="..." class="img-circle team-img">
                         <div class="caption">
-                            <h3 style="font-size:20px;">Alex Louie</h3>
+                            <h3 style="font-size:20px;">Sarah Pomeranz</h3>
                             <p style="font-weight:700;">Student at Rutgers University</p>
-                            <p style="text-align:justify">Alexander Louie is an undergraduate student at Rutgers University, where he is studying Computer Science and Business Administration. Outside of learning about technology and pursuing  his many passions, Alex is interested in understanding how the norms of today’s society influence our perception of happiness and more importantly, how our subconscious derives the coveted feeling of joy. His experiences with stage 4 cancer inspired him to redefine his perception of happiness, to develop the idea of ‘conscious gratitude’, and hopefully to uncover what it takes to be truly content and grateful, even in the darkest of times.
+                            <button class="collapsible">Learn More</button>
+                            <div class="content2">
+                            <p style="text-align:justify">Sarah Pomeranz is a senior at Rutgers University, studying Global Business, Entrepreneurship, and Social Justice. She is the co-founder of Sulis, a social venture which develops solar-water cleaning technology for communities in India. Sarah led Sulis to the finals of the $1 million Hult Prize Accelerator, spearheaded a crowdfunding campaign to pilot the teams’ technology, and was selected as Entrepreneur Organization’s Top 25 American Student Entrepreneurs. Sarah believes firmly in business as a vehicle for social change and aspires to work closely in partnership with communities to foster innovation.
                             </p>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -606,21 +603,23 @@
                 <div class="section-title center text-center">
                         <h2>A few words about  <strong>TED<sup style="text-transform:lowercase;">x</sup></strong></h2>
                         <div class="line">
-                            <hr>
+                        <hr>
                         </div>
                 </div>
 
-            <div class="space"></div>
+
 
             <div class="row">
                 <div class="col-md-6">
-                            <img src="img/group.jpg" class="img-responsive" width="" style="box-shadow: -4px 4px 10px #888888;">
+                    <br> <br>
+                    <img src="img/team/team_pic_edited.png" class="img-responsive" width="" style="box-shadow: -4px 4px 10px #888888;">
                 </div>
 
                 <div class="col-md-6">
                     <div class="about-text">
                         <div class="section-title">
                             <div class="space"></div>
+                            <br>
                             <h2>What is <strong>TED<sup style="text-transform:lowercase;">x</sup></strong>?</h2>
                             <hr>
                             <div class="clearfix"></div>
@@ -633,12 +632,14 @@
             </div>
 
             <div class="space"></div>
+            <br>
 
             <div class="row">
 
                 <div class="col-md-6">
                     <div class="about-text">
                         <div class="section-title">
+                            <br> <br> <br>
                             <h2>About <strong>TED<sup style="text-transform:lowercase;">x</sup>Rutgers</strong></h2>
                             <hr>
                             <div class="clearfix"></div>
@@ -659,6 +660,7 @@
                 <div class="col-md-12">
                     <div class="about-text">
                         <div class="section-title">
+                            <br>
                             <br>
                             <h2>About <strong>TED</strong></h2>
                             <hr>
@@ -715,7 +717,7 @@
                     https://rudots.nupark.com/events/Events/Register/77baa357-10cd-4cbf-88db-324cb63ea722">here</a>.</p>
 
                     <p class="intro"><strong>How can I nominate someone (or myself) to speak?</strong></p>
-                    <p style="font-weight:500;">Unfortunately&#44; we&#39;ve filled all of our spots for this year's conference. However, feel free to submit a nomination for our 2020 conference at <a href="http://tedxrutgers.com/nominate" target="_blank">tedxrutgers.com/nominate</a>!</p>
+                    <p style="font-weight:500;">Unfortunately&#44; we&#39;ve filled all of our spots for this year's conference. However, feel free to submit a nomination for our 2021 conference at <a href="http://tedxrutgers.com/nominate" target="_blank">tedxrutgers.com/nominate</a>!</p>
 
                     <br>
 
@@ -806,6 +808,23 @@
 
           ga('create', 'UA-106248163-1', 'auto');
           ga('send', 'pageview');
+    </script>
+
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active2");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
     </script>
 
   </body>
