@@ -115,7 +115,7 @@ font-weight: 900;
 	}
 /* Home Style */
 #tf-home{
-	background: url(../img/darkroom.jpg);
+	background: url(../img/background.png);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -179,7 +179,7 @@ ul.about-list li span{
 
 /* Team Section */
 #tf-team{
-	background: url(../img/darkroom.jpg);
+	background: url(../img/background.png);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -294,7 +294,7 @@ img.img-circle.team-img {
 
 /* Clients Section */
 #tf-clients{
-	background: url(../img/darkroom.jpg);
+	background: url(../img/background.png);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -348,7 +348,7 @@ img.img-circle.team-img {
 
 /* Sponsor section */
 #tf-sponsor{
-	background: url(../img/darkroom.jpg);
+	background: url(../img/background.png);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
